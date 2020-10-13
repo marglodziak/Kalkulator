@@ -3,6 +3,8 @@ from tkinter import *
 root=Tk()
 root.title("Kalkulator")
 
+#comment
+
 label=Label(root, width=35, text="").grid(row=0, column=0, columnspan=3)
 entry=Entry(root, width=43, borderwidth=1,).grid(row=1, column=0, columnspan=4)
 label=Label(root, width=35, text="").grid(row=2, column=0, columnspan=3)
