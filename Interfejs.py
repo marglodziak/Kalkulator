@@ -6,6 +6,8 @@ root.title("Kalkulator")
 #root.geometry("500x200")
 myFont = font.Font(size=16)
 
+#comment
+
 label=Label(root, width=35, text="").grid(row=0, column=0, columnspan=3)
 entry=Entry(root, width=59, borderwidth=1,).grid(row=1, column=0, columnspan=4)
 
